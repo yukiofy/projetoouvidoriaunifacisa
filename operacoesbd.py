@@ -46,8 +46,3 @@ def excluirBancoDados(connection,sql,dados):
       cursor.close()
       return linhasAfetadas
 
-def limpar():
-      if (platform.system() == 'Windows'):
-            os.system('cls')
-      if (platform.system() == 'Linux'):
-            os.system('clear')
