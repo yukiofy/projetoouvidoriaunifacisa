@@ -43,7 +43,8 @@ def inserirReclamacoes(conexao):
     novaReclamacao = input('Por favor, digite sua reclamação, em seguida, aperte "Enter": ')
     print()
 
-    if novaReclamacao == ' ' or len(novaReclamacao) <= 5:
+    if novaReclamacao == ' ' or len(novaReclamacao) < 5 or novaReclamacao == ' '*len(novaReclamacao) \
+    or novaReclamacao == novaReclamacao[0]*len(novaReclamacao):
         print('Descrição inválida. Por favor, digite algum texto sobre a sua reclamação.')
         print()
         input('Para Voltar ao Menu Principal Aperte "Enter". ')
