@@ -8,7 +8,6 @@ Sérgio Magno Castor Pinheiro
 Thiago Limeira de Alencar
 Yukio Ferreira Yabuta
 """
-from operacoesbd import *
 from ouvidoria import *
 
 opcao = "Abella's Systems"
