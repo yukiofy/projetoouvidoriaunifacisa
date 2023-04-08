@@ -5,6 +5,12 @@ Sistema desenvolvido durante o curso de Sistema de Informação da Unifacisa. <b
 
 
 <br>
+  
+## 💰 Professor Orientador
+  
+Esse projeto foi desenvolvido com orientação e ajuda do professor:
+  
+- Daniel Abella C. Mendonça de Souza  
 
 ## 🛠️ Equipe
 
